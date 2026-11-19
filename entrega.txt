@@ -7,4 +7,4 @@ RM 564063 — Iago Liziero Pereira
 RM 562403 — Ícaro José dos Santos
 RM 558230 — Leonardo Barbosa Santos
 
-Repositório: https://github.com/SEU-USUARIO/Iot-Antidoto
+Repositório: https://github.com/antidoto-project/IA-Antidoto

@@ -55,23 +55,38 @@ Abordagem **híbrida**: as **regras decidem**, o **RAG encontra** e o **LLM expl
 
 Orientação fixa das regras: *"Lave o local com água e sabão, mantenha a pessoa calma e deitada. Não faça torniquete, não corte, não chupe o local e não passe nada na picada. Vá agora para a unidade indicada."*
 
-### Exemplo (SOS · escorpião · dor no local)
+### Exemplo real (SOS · jararaca · dor no local e inchaço)
+
+Saída do `avaliar.py` com o Llama 3.1 8B, em 5,1 s (ver [`evidencias/avaliacao-rodada1.md`](evidencias/avaliacao-rodada1.md)):
 
 ```
-┌─ Resultado da triagem ──────────────────────────────
-│  Animal:   Escorpião
-│  Urgência: 🟡 MÉDIA
-│  Soro:     Soro antiescorpiônico (SAEsc)
-└─────────────────────────────────────────────────────
+Urgência: 🟠 ALTA · Soro: Soro antibotrópico (SAB)
 
-🩺 O que fazer agora:
+Lave o local com água e sabão, mantenha a pessoa calma e deitada. Não faça torniquete, não corte,
+não chupe o local e não passe nada na picada. Vá agora para a unidade indicada.
 
-Lave o local com água e sabão, mantenha a pessoa calma e deitada. Não faça torniquete, ...
+Vá imediatamente para a unidade de saúde. Mantenha a vítima em repouso e com o membro acometido
+elevado até a chegada ao pronto-socorro. Dê água potável para a vítima beber. Não amarre o membro
+acometido e não faça curativo no local da picada. Não aplique qualquer tipo de substância no local
+da picada. [1], [2], [3], [4]
 
-<explicação do Llama citando [1], [2]...>
-
-Fontes: [1] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 164; ...
+Fontes: [1] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 164; [2] … p. 165; …
 ```
+
+O 1º parágrafo vem das regras (sempre igual); o 2º é o Llama reescrevendo a seção "8.9 Primeiros-socorros" do guia só com o que vale para picada de cobra (repouso, membro elevado e água potável são instruções do guia para acidentes ofídicos).
+
+### Integração com o Antídoto
+
+A IA faz parte da solução Antídoto (app mobile + API Java + API .NET) e foi construída para encaixar nela sem tradução:
+
+| Ponto de contato | Como está hoje |
+| --- | --- |
+| **Mesmos códigos** | Grupos de animal (`JARARACA`, `ESCORPIAO`…), soros (`BOTROPICO`…) e urgências (`CRITICA`, `ALTA`, `MEDIA`) são os mesmos do `Catalogo.cs` da API .NET |
+| **Mesma regra de urgência** | `regras.py` reproduz o `RegrasTriagem.cs` do .NET, inclusive o texto da orientação, e os dois são testados pelos mesmos 22 casos de [`casos-triagem.json`](IA-antidoto/data/casos-triagem.json) |
+| **Mesmo formato de resposta** | `assistente.triar()` devolve `urgencia`, `soro` e `orientacao`, os três campos que o `IaClient` da API .NET já lê |
+| **SOS do app** | O soro indicado pela IA é o filtro que o app usa para listar as unidades de saúde que têm aquele soro |
+
+**Nesta entrega**, a IA roda no terminal (`chat.py`) para ser avaliada de forma isolada e reproduzível, sem depender do app, do banco Oracle ou da nuvem. **Próximo passo:** publicar `assistente.triar()` como `POST /triagem` na porta 8000, rota que o `IaClient` da API .NET já chama, com fallback para as regras locais do .NET se a IA estiver fora do ar.
 
 ## 🏗️ Arquitetura
 
@@ -235,7 +250,7 @@ Testes automatizados: **72**, saída em [`evidencias/resultado-testes.txt`](evid
 | Requisito | Onde está |
 | --- | --- |
 | 01 Aplicação ao problema | [O problema e o público](#-o-problema-e-o-público) e [A funcionalidade de IA](#-a-funcionalidade-de-ia) |
-| 02 IA generativa no fluxo | Llama 3.1 local no SOS e nas dúvidas ([`assistente.py`](IA-antidoto/assistente.py), [`llm.py`](IA-antidoto/llm.py)) |
+| 02 IA generativa no fluxo | Llama 3.1 local no SOS e nas dúvidas ([`assistente.py`](IA-antidoto/assistente.py), [`llm.py`](IA-antidoto/llm.py)) e [Integração com o Antídoto](#integração-com-o-antídoto) |
 | 03 Aprofundamento técnico | RAG básico com BM25 e filtro de tema ([`rag.py`](IA-antidoto/rag.py)) e a [justificativa](#-modelos-tecnologias-e-justificativas) com o teste de embeddings |
 | 04 Dados e arquitetura | [Dados](#-dados-fontes-e-preparação), [`data/fontes.md`](IA-antidoto/data/fontes.md) e [diagrama](#-arquitetura) |
 | 05 Avaliação dos resultados | [`avaliar.py`](IA-antidoto/avaliar.py), [Avaliação](#-avaliação-e-resultados) e [`evidencias/`](evidencias/README.md) |
