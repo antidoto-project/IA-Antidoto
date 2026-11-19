@@ -1,0 +1,10 @@
+Global Solution 2026/2 — CitizenTech · Disruptive Architectures: IoT, IoB & Generative IA
+Projeto: Antídoto IA — primeiros socorros para acidentes com animais peçonhentos
+
+Integrantes:
+RM 558595 — Gustavo Souto de Melo
+RM 564063 — Iago Liziero Pereira
+RM 562403 — Ícaro José dos Santos
+RM 558230 — Leonardo Barbosa Santos
+
+Repositório: https://github.com/SEU-USUARIO/Iot-Antidoto

@@ -1,0 +1,320 @@
+{
+  "descricao": "Casos de triagem compartilhados entre o Antídoto IA (Python) e a API .NET (RegrasTriagem.cs). Mudança aqui precisa de acordo do grupo e dos testes dos dois lados.",
+  "casos": [
+    {
+      "id": "T01",
+      "descricao": "jararaca só com dor local",
+      "entrada": {
+        "grupoAnimal": "JARARACA",
+        "sintomas": [
+          "DOR_LOCAL"
+        ]
+      },
+      "esperado": {
+        "urgencia": "ALTA",
+        "soro": "BOTROPICO"
+      }
+    },
+    {
+      "id": "T02",
+      "descricao": "cascavel só com dor local",
+      "entrada": {
+        "grupoAnimal": "CASCAVEL",
+        "sintomas": [
+          "DOR_LOCAL"
+        ]
+      },
+      "esperado": {
+        "urgencia": "ALTA",
+        "soro": "CROTALICO"
+      }
+    },
+    {
+      "id": "T03",
+      "descricao": "surucucu só com dor local",
+      "entrada": {
+        "grupoAnimal": "SURUCUCU",
+        "sintomas": [
+          "DOR_LOCAL"
+        ]
+      },
+      "esperado": {
+        "urgencia": "ALTA",
+        "soro": "LAQUETICO"
+      }
+    },
+    {
+      "id": "T04",
+      "descricao": "coral só com dor local",
+      "entrada": {
+        "grupoAnimal": "CORAL",
+        "sintomas": [
+          "DOR_LOCAL"
+        ]
+      },
+      "esperado": {
+        "urgencia": "ALTA",
+        "soro": "ELAPIDICO"
+      }
+    },
+    {
+      "id": "T05",
+      "descricao": "escorpiao só com dor local",
+      "entrada": {
+        "grupoAnimal": "ESCORPIAO",
+        "sintomas": [
+          "DOR_LOCAL"
+        ]
+      },
+      "esperado": {
+        "urgencia": "MEDIA",
+        "soro": "ESCORPIONICO"
+      }
+    },
+    {
+      "id": "T06",
+      "descricao": "armadeira só com dor local",
+      "entrada": {
+        "grupoAnimal": "ARMADEIRA",
+        "sintomas": [
+          "DOR_LOCAL"
+        ]
+      },
+      "esperado": {
+        "urgencia": "MEDIA",
+        "soro": "ARACNIDICO"
+      }
+    },
+    {
+      "id": "T07",
+      "descricao": "aranha_marrom só com dor local",
+      "entrada": {
+        "grupoAnimal": "ARANHA_MARROM",
+        "sintomas": [
+          "DOR_LOCAL"
+        ]
+      },
+      "esperado": {
+        "urgencia": "MEDIA",
+        "soro": "LOXOSCELICO"
+      }
+    },
+    {
+      "id": "T08",
+      "descricao": "lagarta só com dor local",
+      "entrada": {
+        "grupoAnimal": "LAGARTA",
+        "sintomas": [
+          "DOR_LOCAL"
+        ]
+      },
+      "esperado": {
+        "urgencia": "MEDIA",
+        "soro": "LONOMICO"
+      }
+    },
+    {
+      "id": "T09",
+      "descricao": "desconhecido só com dor local",
+      "entrada": {
+        "grupoAnimal": "DESCONHECIDO",
+        "sintomas": [
+          "DOR_LOCAL"
+        ]
+      },
+      "esperado": {
+        "urgencia": "ALTA",
+        "soro": null
+      }
+    },
+    {
+      "id": "T10",
+      "descricao": "escorpião com sinal grave FALTA_DE_AR",
+      "entrada": {
+        "grupoAnimal": "ESCORPIAO",
+        "sintomas": [
+          "DOR_LOCAL",
+          "FALTA_DE_AR"
+        ]
+      },
+      "esperado": {
+        "urgencia": "CRITICA",
+        "soro": "ESCORPIONICO"
+      }
+    },
+    {
+      "id": "T11",
+      "descricao": "escorpião com sinal grave VISAO_DUPLA",
+      "entrada": {
+        "grupoAnimal": "ESCORPIAO",
+        "sintomas": [
+          "DOR_LOCAL",
+          "VISAO_DUPLA"
+        ]
+      },
+      "esperado": {
+        "urgencia": "CRITICA",
+        "soro": "ESCORPIONICO"
+      }
+    },
+    {
+      "id": "T12",
+      "descricao": "escorpião com sinal grave PALPEBRA_CAIDA",
+      "entrada": {
+        "grupoAnimal": "ESCORPIAO",
+        "sintomas": [
+          "DOR_LOCAL",
+          "PALPEBRA_CAIDA"
+        ]
+      },
+      "esperado": {
+        "urgencia": "CRITICA",
+        "soro": "ESCORPIONICO"
+      }
+    },
+    {
+      "id": "T13",
+      "descricao": "escorpião com sinal grave URINA_ESCURA",
+      "entrada": {
+        "grupoAnimal": "ESCORPIAO",
+        "sintomas": [
+          "DOR_LOCAL",
+          "URINA_ESCURA"
+        ]
+      },
+      "esperado": {
+        "urgencia": "CRITICA",
+        "soro": "ESCORPIONICO"
+      }
+    },
+    {
+      "id": "T14",
+      "descricao": "escorpião com sinal grave SANGRAMENTO",
+      "entrada": {
+        "grupoAnimal": "ESCORPIAO",
+        "sintomas": [
+          "DOR_LOCAL",
+          "SANGRAMENTO"
+        ]
+      },
+      "esperado": {
+        "urgencia": "CRITICA",
+        "soro": "ESCORPIONICO"
+      }
+    },
+    {
+      "id": "T15",
+      "descricao": "escorpião com sinal grave DESMAIO",
+      "entrada": {
+        "grupoAnimal": "ESCORPIAO",
+        "sintomas": [
+          "DOR_LOCAL",
+          "DESMAIO"
+        ]
+      },
+      "esperado": {
+        "urgencia": "CRITICA",
+        "soro": "ESCORPIONICO"
+      }
+    },
+    {
+      "id": "T16",
+      "descricao": "escorpião com sinal grave VOMITOS",
+      "entrada": {
+        "grupoAnimal": "ESCORPIAO",
+        "sintomas": [
+          "DOR_LOCAL",
+          "VOMITOS"
+        ]
+      },
+      "esperado": {
+        "urgencia": "CRITICA",
+        "soro": "ESCORPIONICO"
+      }
+    },
+    {
+      "id": "T17",
+      "descricao": "sinal grave em minúsculas",
+      "entrada": {
+        "grupoAnimal": "ESCORPIAO",
+        "sintomas": [
+          "dor_local",
+          "visao_dupla"
+        ]
+      },
+      "esperado": {
+        "urgencia": "CRITICA",
+        "soro": "ESCORPIONICO"
+      }
+    },
+    {
+      "id": "T18",
+      "descricao": "grupo em minúsculas",
+      "entrada": {
+        "grupoAnimal": "jararaca",
+        "sintomas": [
+          "INCHACO"
+        ]
+      },
+      "esperado": {
+        "urgencia": "ALTA",
+        "soro": "BOTROPICO"
+      }
+    },
+    {
+      "id": "T19",
+      "descricao": "sem nenhum sintoma informado",
+      "entrada": {
+        "grupoAnimal": "LAGARTA",
+        "sintomas": []
+      },
+      "esperado": {
+        "urgencia": "MEDIA",
+        "soro": "LONOMICO"
+      }
+    },
+    {
+      "id": "T20",
+      "descricao": "animal desconhecido com sinal grave",
+      "entrada": {
+        "grupoAnimal": "DESCONHECIDO",
+        "sintomas": [
+          "DESMAIO"
+        ]
+      },
+      "esperado": {
+        "urgencia": "CRITICA",
+        "soro": null
+      }
+    },
+    {
+      "id": "T21",
+      "descricao": "cascavel com sinal grave",
+      "entrada": {
+        "grupoAnimal": "CASCAVEL",
+        "sintomas": [
+          "PALPEBRA_CAIDA"
+        ]
+      },
+      "esperado": {
+        "urgencia": "CRITICA",
+        "soro": "CROTALICO"
+      }
+    },
+    {
+      "id": "T22",
+      "descricao": "sintoma não grave não muda a urgência",
+      "entrada": {
+        "grupoAnimal": "ARANHA_MARROM",
+        "sintomas": [
+          "INCHACO",
+          "DOR_LOCAL"
+        ]
+      },
+      "esperado": {
+        "urgencia": "MEDIA",
+        "soro": "LOXOSCELICO"
+      }
+    }
+  ]
+}

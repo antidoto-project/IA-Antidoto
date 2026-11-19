@@ -1,0 +1,92 @@
+{
+  "soros": [
+    {
+      "id": "BOTROPICO",
+      "nome": "Soro antibotrópico (SAB)"
+    },
+    {
+      "id": "CROTALICO",
+      "nome": "Soro anticrotálico (SAC)"
+    },
+    {
+      "id": "LAQUETICO",
+      "nome": "Soro antibotrópico-laquético (SABL)"
+    },
+    {
+      "id": "ELAPIDICO",
+      "nome": "Soro antielapídico (SAE)"
+    },
+    {
+      "id": "ESCORPIONICO",
+      "nome": "Soro antiescorpiônico (SAEsc)"
+    },
+    {
+      "id": "ARACNIDICO",
+      "nome": "Soro antiaracnídico (SAA)"
+    },
+    {
+      "id": "LOXOSCELICO",
+      "nome": "Soro antiloxoscélico (SALox)"
+    },
+    {
+      "id": "LONOMICO",
+      "nome": "Soro antilonômico (SALon)"
+    }
+  ],
+  "grupos": [
+    {
+      "id": "JARARACA",
+      "nome": "Jararaca",
+      "tipo": "serpente",
+      "soro": "BOTROPICO"
+    },
+    {
+      "id": "CASCAVEL",
+      "nome": "Cascavel",
+      "tipo": "serpente",
+      "soro": "CROTALICO"
+    },
+    {
+      "id": "SURUCUCU",
+      "nome": "Surucucu",
+      "tipo": "serpente",
+      "soro": "LAQUETICO"
+    },
+    {
+      "id": "CORAL",
+      "nome": "Coral-verdadeira",
+      "tipo": "serpente",
+      "soro": "ELAPIDICO"
+    },
+    {
+      "id": "ESCORPIAO",
+      "nome": "Escorpião",
+      "tipo": "escorpiao",
+      "soro": "ESCORPIONICO"
+    },
+    {
+      "id": "ARMADEIRA",
+      "nome": "Aranha-armadeira",
+      "tipo": "aranha",
+      "soro": "ARACNIDICO"
+    },
+    {
+      "id": "ARANHA_MARROM",
+      "nome": "Aranha-marrom",
+      "tipo": "aranha",
+      "soro": "LOXOSCELICO"
+    },
+    {
+      "id": "LAGARTA",
+      "nome": "Lagarta (taturana)",
+      "tipo": "lagarta",
+      "soro": "LONOMICO"
+    },
+    {
+      "id": "DESCONHECIDO",
+      "nome": "Não sei qual foi o animal",
+      "tipo": "desconhecido",
+      "soro": null
+    }
+  ]
+}

@@ -1,0 +1,836 @@
+{
+  "executado_em": "2026-11-18T20:55:02-03:00",
+  "triagem": {
+    "acuracia": 1.0,
+    "casos": [
+      {
+        "id": "T01",
+        "descricao": "jararaca só com dor local",
+        "esperado": {
+          "urgencia": "ALTA",
+          "soro": "BOTROPICO"
+        },
+        "obtido": {
+          "urgencia": "ALTA",
+          "soro": "BOTROPICO"
+        },
+        "acertou": true
+      },
+      {
+        "id": "T02",
+        "descricao": "cascavel só com dor local",
+        "esperado": {
+          "urgencia": "ALTA",
+          "soro": "CROTALICO"
+        },
+        "obtido": {
+          "urgencia": "ALTA",
+          "soro": "CROTALICO"
+        },
+        "acertou": true
+      },
+      {
+        "id": "T03",
+        "descricao": "surucucu só com dor local",
+        "esperado": {
+          "urgencia": "ALTA",
+          "soro": "LAQUETICO"
+        },
+        "obtido": {
+          "urgencia": "ALTA",
+          "soro": "LAQUETICO"
+        },
+        "acertou": true
+      },
+      {
+        "id": "T04",
+        "descricao": "coral só com dor local",
+        "esperado": {
+          "urgencia": "ALTA",
+          "soro": "ELAPIDICO"
+        },
+        "obtido": {
+          "urgencia": "ALTA",
+          "soro": "ELAPIDICO"
+        },
+        "acertou": true
+      },
+      {
+        "id": "T05",
+        "descricao": "escorpiao só com dor local",
+        "esperado": {
+          "urgencia": "MEDIA",
+          "soro": "ESCORPIONICO"
+        },
+        "obtido": {
+          "urgencia": "MEDIA",
+          "soro": "ESCORPIONICO"
+        },
+        "acertou": true
+      },
+      {
+        "id": "T06",
+        "descricao": "armadeira só com dor local",
+        "esperado": {
+          "urgencia": "MEDIA",
+          "soro": "ARACNIDICO"
+        },
+        "obtido": {
+          "urgencia": "MEDIA",
+          "soro": "ARACNIDICO"
+        },
+        "acertou": true
+      },
+      {
+        "id": "T07",
+        "descricao": "aranha_marrom só com dor local",
+        "esperado": {
+          "urgencia": "MEDIA",
+          "soro": "LOXOSCELICO"
+        },
+        "obtido": {
+          "urgencia": "MEDIA",
+          "soro": "LOXOSCELICO"
+        },
+        "acertou": true
+      },
+      {
+        "id": "T08",
+        "descricao": "lagarta só com dor local",
+        "esperado": {
+          "urgencia": "MEDIA",
+          "soro": "LONOMICO"
+        },
+        "obtido": {
+          "urgencia": "MEDIA",
+          "soro": "LONOMICO"
+        },
+        "acertou": true
+      },
+      {
+        "id": "T09",
+        "descricao": "desconhecido só com dor local",
+        "esperado": {
+          "urgencia": "ALTA",
+          "soro": null
+        },
+        "obtido": {
+          "urgencia": "ALTA",
+          "soro": null
+        },
+        "acertou": true
+      },
+      {
+        "id": "T10",
+        "descricao": "escorpião com sinal grave FALTA_DE_AR",
+        "esperado": {
+          "urgencia": "CRITICA",
+          "soro": "ESCORPIONICO"
+        },
+        "obtido": {
+          "urgencia": "CRITICA",
+          "soro": "ESCORPIONICO"
+        },
+        "acertou": true
+      },
+      {
+        "id": "T11",
+        "descricao": "escorpião com sinal grave VISAO_DUPLA",
+        "esperado": {
+          "urgencia": "CRITICA",
+          "soro": "ESCORPIONICO"
+        },
+        "obtido": {
+          "urgencia": "CRITICA",
+          "soro": "ESCORPIONICO"
+        },
+        "acertou": true
+      },
+      {
+        "id": "T12",
+        "descricao": "escorpião com sinal grave PALPEBRA_CAIDA",
+        "esperado": {
+          "urgencia": "CRITICA",
+          "soro": "ESCORPIONICO"
+        },
+        "obtido": {
+          "urgencia": "CRITICA",
+          "soro": "ESCORPIONICO"
+        },
+        "acertou": true
+      },
+      {
+        "id": "T13",
+        "descricao": "escorpião com sinal grave URINA_ESCURA",
+        "esperado": {
+          "urgencia": "CRITICA",
+          "soro": "ESCORPIONICO"
+        },
+        "obtido": {
+          "urgencia": "CRITICA",
+          "soro": "ESCORPIONICO"
+        },
+        "acertou": true
+      },
+      {
+        "id": "T14",
+        "descricao": "escorpião com sinal grave SANGRAMENTO",
+        "esperado": {
+          "urgencia": "CRITICA",
+          "soro": "ESCORPIONICO"
+        },
+        "obtido": {
+          "urgencia": "CRITICA",
+          "soro": "ESCORPIONICO"
+        },
+        "acertou": true
+      },
+      {
+        "id": "T15",
+        "descricao": "escorpião com sinal grave DESMAIO",
+        "esperado": {
+          "urgencia": "CRITICA",
+          "soro": "ESCORPIONICO"
+        },
+        "obtido": {
+          "urgencia": "CRITICA",
+          "soro": "ESCORPIONICO"
+        },
+        "acertou": true
+      },
+      {
+        "id": "T16",
+        "descricao": "escorpião com sinal grave VOMITOS",
+        "esperado": {
+          "urgencia": "CRITICA",
+          "soro": "ESCORPIONICO"
+        },
+        "obtido": {
+          "urgencia": "CRITICA",
+          "soro": "ESCORPIONICO"
+        },
+        "acertou": true
+      },
+      {
+        "id": "T17",
+        "descricao": "sinal grave em minúsculas",
+        "esperado": {
+          "urgencia": "CRITICA",
+          "soro": "ESCORPIONICO"
+        },
+        "obtido": {
+          "urgencia": "CRITICA",
+          "soro": "ESCORPIONICO"
+        },
+        "acertou": true
+      },
+      {
+        "id": "T18",
+        "descricao": "grupo em minúsculas",
+        "esperado": {
+          "urgencia": "ALTA",
+          "soro": "BOTROPICO"
+        },
+        "obtido": {
+          "urgencia": "ALTA",
+          "soro": "BOTROPICO"
+        },
+        "acertou": true
+      },
+      {
+        "id": "T19",
+        "descricao": "sem nenhum sintoma informado",
+        "esperado": {
+          "urgencia": "MEDIA",
+          "soro": "LONOMICO"
+        },
+        "obtido": {
+          "urgencia": "MEDIA",
+          "soro": "LONOMICO"
+        },
+        "acertou": true
+      },
+      {
+        "id": "T20",
+        "descricao": "animal desconhecido com sinal grave",
+        "esperado": {
+          "urgencia": "CRITICA",
+          "soro": null
+        },
+        "obtido": {
+          "urgencia": "CRITICA",
+          "soro": null
+        },
+        "acertou": true
+      },
+      {
+        "id": "T21",
+        "descricao": "cascavel com sinal grave",
+        "esperado": {
+          "urgencia": "CRITICA",
+          "soro": "CROTALICO"
+        },
+        "obtido": {
+          "urgencia": "CRITICA",
+          "soro": "CROTALICO"
+        },
+        "acertou": true
+      },
+      {
+        "id": "T22",
+        "descricao": "sintoma não grave não muda a urgência",
+        "esperado": {
+          "urgencia": "MEDIA",
+          "soro": "LOXOSCELICO"
+        },
+        "obtido": {
+          "urgencia": "MEDIA",
+          "soro": "LOXOSCELICO"
+        },
+        "acertou": true
+      }
+    ]
+  },
+  "rag": {
+    "recall_at_4": 0.9,
+    "mrr": 0.742,
+    "rejeicao_fora_do_tema": 1.0,
+    "perguntas": [
+      {
+        "id": "P01",
+        "pergunta": "Posso fazer torniquete depois de uma picada de cobra?",
+        "esperadas": [
+          160,
+          164,
+          165
+        ],
+        "recuperadas": [
+          165,
+          160,
+          28,
+          9
+        ],
+        "posicao": 1
+      },
+      {
+        "id": "P02",
+        "pergunta": "O que fazer logo depois de ser picado por um animal peçonhento?",
+        "esperadas": [
+          160,
+          164
+        ],
+        "recuperadas": [
+          9,
+          9,
+          12,
+          160
+        ],
+        "posicao": 4
+      },
+      {
+        "id": "P03",
+        "pergunta": "Devo lavar o local da picada com água e sabão?",
+        "esperadas": [
+          164
+        ],
+        "recuperadas": [
+          164,
+          165,
+          164,
+          165
+        ],
+        "posicao": 1
+      },
+      {
+        "id": "P04",
+        "pergunta": "Posso passar borra de café ou pó de café na picada?",
+        "esperadas": [
+          160,
+          165
+        ],
+        "recuperadas": [
+          160,
+          165,
+          23,
+          56
+        ],
+        "posicao": 1
+      },
+      {
+        "id": "P05",
+        "pergunta": "Devo tirar foto do bicho que me picou?",
+        "esperadas": [
+          164
+        ],
+        "recuperadas": [
+          127,
+          126,
+          131,
+          125
+        ],
+        "posicao": null
+      },
+      {
+        "id": "P06",
+        "pergunta": "Como tirar o ferrão de uma abelha?",
+        "esperadas": [
+          165
+        ],
+        "recuperadas": [
+          123,
+          123,
+          121,
+          165
+        ],
+        "posicao": 4
+      },
+      {
+        "id": "P07",
+        "pergunta": "O que fazer em acidente com água-viva?",
+        "esperadas": [
+          165
+        ],
+        "recuperadas": [
+          18,
+          18,
+          164,
+          146
+        ],
+        "posicao": null
+      },
+      {
+        "id": "P08",
+        "pergunta": "Como evitar escorpião dentro de casa?",
+        "esperadas": [
+          160,
+          161,
+          162
+        ],
+        "recuperadas": [
+          161,
+          162,
+          88,
+          161
+        ],
+        "posicao": 1
+      },
+      {
+        "id": "P09",
+        "pergunta": "Como prevenir picada de cobra quando trabalho na roça?",
+        "esperadas": [
+          160,
+          161,
+          162,
+          163
+        ],
+        "recuperadas": [
+          65,
+          160,
+          28,
+          160
+        ],
+        "posicao": 2
+      },
+      {
+        "id": "P10",
+        "pergunta": "Usar botas e luvas ajuda a evitar acidentes?",
+        "esperadas": [
+          160,
+          163
+        ],
+        "recuperadas": [
+          160,
+          162,
+          161,
+          162
+        ],
+        "posicao": 1
+      },
+      {
+        "id": "P11",
+        "pergunta": "Como reconhecer uma cobra-coral verdadeira?",
+        "esperadas": [
+          26,
+          38,
+          39,
+          40,
+          44,
+          65,
+          67,
+          68,
+          69,
+          70
+        ],
+        "recuperadas": [
+          72,
+          71,
+          69,
+          74
+        ],
+        "posicao": 3
+      },
+      {
+        "id": "P12",
+        "pergunta": "O que é a fosseta loreal das serpentes?",
+        "esperadas": [
+          26,
+          30,
+          32
+        ],
+        "recuperadas": [
+          26,
+          24,
+          30,
+          32
+        ],
+        "posicao": 1
+      },
+      {
+        "id": "P13",
+        "pergunta": "Como reconhecer uma cascavel pelo chocalho?",
+        "esperadas": [
+          25,
+          32,
+          33,
+          62
+        ],
+        "recuperadas": [
+          33,
+          32,
+          22,
+          146
+        ],
+        "posicao": 1
+      },
+      {
+        "id": "P14",
+        "pergunta": "Qual aranha tem uma mancha em forma de violino?",
+        "esperadas": [
+          89
+        ],
+        "recuperadas": [
+          89,
+          89,
+          93,
+          89
+        ],
+        "posicao": 1
+      },
+      {
+        "id": "P15",
+        "pergunta": "Onde vive o escorpião-amarelo?",
+        "esperadas": [
+          13,
+          16,
+          98,
+          101,
+          107
+        ],
+        "recuperadas": [
+          13,
+          49,
+          101,
+          103
+        ],
+        "posicao": 1
+      },
+      {
+        "id": "P16",
+        "pergunta": "O escorpião brilha com luz ultravioleta?",
+        "esperadas": [
+          99
+        ],
+        "recuperadas": [
+          99,
+          13,
+          153,
+          138
+        ],
+        "posicao": 1
+      },
+      {
+        "id": "P17",
+        "pergunta": "O que é a lagarta Lonomia e por que ela é perigosa?",
+        "esperadas": [
+          13,
+          14,
+          17,
+          125,
+          126,
+          128,
+          129,
+          130
+        ],
+        "recuperadas": [
+          127,
+          128,
+          128,
+          132
+        ],
+        "posicao": 2
+      },
+      {
+        "id": "P18",
+        "pergunta": "A aranha armadeira é perigosa?",
+        "esperadas": [
+          13,
+          16,
+          83,
+          84,
+          85
+        ],
+        "recuperadas": [
+          16,
+          83,
+          13,
+          83
+        ],
+        "posicao": 1
+      },
+      {
+        "id": "P19",
+        "pergunta": "Quais animais peçonhentos causam mais acidentes no Brasil?",
+        "esperadas": [
+          8,
+          12,
+          14,
+          16,
+          17,
+          18
+        ],
+        "recuperadas": [
+          12,
+          146,
+          14,
+          12
+        ],
+        "posicao": 1
+      },
+      {
+        "id": "P20",
+        "pergunta": "Onde é aplicado o soro antiveneno?",
+        "esperadas": [
+          8,
+          9,
+          12,
+          22,
+          160
+        ],
+        "recuperadas": [
+          8,
+          31,
+          8,
+          12
+        ],
+        "posicao": 1
+      }
+    ],
+    "fora_do_tema": [
+      {
+        "id": "F01",
+        "pergunta": "Qual o horário do jogo do Corinthians?",
+        "status": "fora_do_tema"
+      },
+      {
+        "id": "F02",
+        "pergunta": "Me passa uma receita de bolo de cenoura",
+        "status": "fora_do_tema"
+      },
+      {
+        "id": "F03",
+        "pergunta": "Quanto está o preço da gasolina hoje?",
+        "status": "fora_do_tema"
+      },
+      {
+        "id": "F04",
+        "pergunta": "Qual é a capital da França?",
+        "status": "fora_do_tema"
+      },
+      {
+        "id": "F05",
+        "pergunta": "Como trocar o pneu do carro?",
+        "status": "fora_do_tema"
+      }
+    ]
+  },
+  "falhas": [
+    {
+      "cenario": "Ollama fora do ar (SOS)",
+      "esperado": "regras+guia",
+      "obtido": "regras+guia",
+      "ok": true
+    },
+    {
+      "cenario": "Ollama fora do ar (dúvida)",
+      "esperado": "guia",
+      "obtido": "guia",
+      "ok": true
+    },
+    {
+      "cenario": "LLM responde sem citar o guia",
+      "esperado": "sem citação",
+      "obtido": "sem citação",
+      "ok": true
+    },
+    {
+      "cenario": "LLM dispensa atendimento",
+      "esperado": "regras+guia",
+      "obtido": "regras+guia",
+      "ok": true
+    },
+    {
+      "cenario": "LLM cita trecho que não existe",
+      "esperado": "cita trecho inexistente",
+      "obtido": "cita trecho inexistente",
+      "ok": true
+    },
+    {
+      "cenario": "Sinal grave não passa pelo LLM",
+      "esperado": "protocolo",
+      "obtido": "protocolo",
+      "ok": true
+    },
+    {
+      "cenario": "Sinal grave escrito no texto",
+      "esperado": "protocolo",
+      "obtido": "protocolo",
+      "ok": true
+    },
+    {
+      "cenario": "Pergunta fora do tema",
+      "esperado": "fora_do_tema",
+      "obtido": "fora_do_tema",
+      "ok": true
+    },
+    {
+      "cenario": "Pergunta vazia",
+      "esperado": "PerguntaInvalida",
+      "obtido": "PerguntaInvalida",
+      "ok": true
+    },
+    {
+      "cenario": "Animal inexistente",
+      "esperado": "GrupoInvalido",
+      "obtido": "GrupoInvalido",
+      "ok": true
+    },
+    {
+      "cenario": "CPF e telefone no texto",
+      "esperado": false,
+      "obtido": false,
+      "ok": true
+    }
+  ],
+  "llm": {
+    "modelo": "llama3.1:8b",
+    "aprovadas_pela_validacao": "9/12",
+    "taxa_aprovacao": 0.75,
+    "tempo_medio_s": 4.3,
+    "respostas": [
+      {
+        "tipo": "SOS",
+        "entrada": "ESCORPIAO · dor no local",
+        "fonte": "regras+guia",
+        "motivo_fallback": "sem citação",
+        "segundos": 5.2,
+        "resposta": "Lave o local com água e sabão, mantenha a pessoa calma e deitada. Não faça torniquete, não corte, não chupe o local e não passe nada na picada. Vá agora para a unidade indicada.\n\nDo guia oficial:\n[1] 8.9 Primeiros-socorros • Em caso de acidente, procure atendimento médico imediatamente. • Fotografe ou informe ao profissional de saúde o máximo possível de características do animal, como: tipo de animal, cor, tamanho etc. • Se possível, e caso tal ação não atrase a ida do paciente ao atendimento médico, lave o local da picada, mordida ou contato…\n[2] A remoção dos tentáculos aderidos à pele deve ser realizada de forma cuidadosa, preferencialmente com uso de pinça, lâmina ou cartão de banco. Aplique vinagre para desativar os tentáculos aderidos à pele. • A remoção do ferrão de abelhas pode ser feita apenas por raspagem com lâminas, e não com pinças. A remoção com pinças pode resultar na…\n\nFontes: [1] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 164; [2] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 165; [3] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 160; [4] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 160"
+      },
+      {
+        "tipo": "SOS",
+        "entrada": "JARARACA · dor no local, inchaço",
+        "fonte": "llama",
+        "motivo_fallback": null,
+        "segundos": 5.1,
+        "resposta": "Lave o local com água e sabão, mantenha a pessoa calma e deitada. Não faça torniquete, não corte, não chupe o local e não passe nada na picada. Vá agora para a unidade indicada.\n\nVá imediatamente para a unidade de saúde. Mantenha a vítima em repouso e com o membro acometido elevado até a chegada ao pronto-socorro. Dê água potável para a vítima beber. Não amarre o membro acometido e não faça curativo no local da picada. Não aplique qualquer tipo de substância no local da picada. [1], [2], [3], [4]\n\nFontes: [1] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 164; [2] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 165; [3] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 160; [4] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 160"
+      },
+      {
+        "tipo": "SOS",
+        "entrada": "ARANHA_MARROM · vermelhidão",
+        "fonte": "regras+guia",
+        "motivo_fallback": "sem citação",
+        "segundos": 4.4,
+        "resposta": "Lave o local com água e sabão, mantenha a pessoa calma e deitada. Não faça torniquete, não corte, não chupe o local e não passe nada na picada. Vá agora para a unidade indicada.\n\nDo guia oficial:\n[1] 8.9 Primeiros-socorros • Em caso de acidente, procure atendimento médico imediatamente. • Fotografe ou informe ao profissional de saúde o máximo possível de características do animal, como: tipo de animal, cor, tamanho etc. • Se possível, e caso tal ação não atrase a ida do paciente ao atendimento médico, lave o local da picada, mordida ou contato…\n[2] Acidentes por aranhas armadeiras ocorrem em maior frequência nas mãos e nos pés. Já os acidentes por aranhas-marrom são mais distribuídos pelo corpo, visto que tais acidentes costumam ocorrer ao esmagar a aranha com alguma parte do corpo. Desse modo, alguns cuidados simples e específicos para cada tipo de animal podem evitar boa parte destes…\n\nFontes: [1] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 164; [2] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 160; [3] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 165; [4] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 160"
+      },
+      {
+        "tipo": "SOS",
+        "entrada": "LAGARTA · dor no local",
+        "fonte": "llama",
+        "motivo_fallback": null,
+        "segundos": 5.2,
+        "resposta": "Lave o local com água e sabão, mantenha a pessoa calma e deitada. Não faça torniquete, não corte, não chupe o local e não passe nada na picada. Vá agora para a unidade indicada.\n\nLave o local da picada com água fria ou gelada. Mantenha a vítima em repouso e com o membro acometido elevado até a chegada ao pronto-socorro. Dê água potável para a vítima beber. Não amarre o membro acometido e não faça curativo no local da picada. Não remova os tentáculos aderidos à pele, aguarde o atendimento médico. [1] [2] [3]\n\nFontes: [1] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 164; [2] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 165; [3] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 160"
+      },
+      {
+        "tipo": "SOS",
+        "entrada": "DESCONHECIDO · nenhum sintoma informado",
+        "fonte": "regras+guia",
+        "motivo_fallback": "sem citação",
+        "segundos": 4.9,
+        "resposta": "Lave o local com água e sabão, mantenha a pessoa calma e deitada. Não faça torniquete, não corte, não chupe o local e não passe nada na picada. Vá agora para a unidade indicada.\n\nDo guia oficial:\n[1] 8.9 Primeiros-socorros • Em caso de acidente, procure atendimento médico imediatamente. • Fotografe ou informe ao profissional de saúde o máximo possível de características do animal, como: tipo de animal, cor, tamanho etc. • Se possível, e caso tal ação não atrase a ida do paciente ao atendimento médico, lave o local da picada, mordida ou contato…\n[2] A remoção dos tentáculos aderidos à pele deve ser realizada de forma cuidadosa, preferencialmente com uso de pinça, lâmina ou cartão de banco. Aplique vinagre para desativar os tentáculos aderidos à pele. • A remoção do ferrão de abelhas pode ser feita apenas por raspagem com lâminas, e não com pinças. A remoção com pinças pode resultar na…\n\nFontes: [1] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 164; [2] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 165; [3] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 160; [4] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 160"
+      },
+      {
+        "tipo": "Dúvida",
+        "entrada": "Posso fazer torniquete depois de uma picada de cobra?",
+        "fonte": "llama",
+        "motivo_fallback": null,
+        "segundos": 3.1,
+        "resposta": "Não faça torniquete no membro acometido [1].\n\nFontes: [1] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 165; [2] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 160; [3] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 28; [4] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 9"
+      },
+      {
+        "tipo": "Dúvida",
+        "entrada": "Devo lavar o local da picada?",
+        "fonte": "llama",
+        "motivo_fallback": null,
+        "segundos": 3.8,
+        "resposta": "Sim, lave o local da picada com água e sabão, exceto em acidentes por águas-vivas ou caravelas. Se for um acidente ofídico, dê água potável para a vítima beber. [3]\n\nFontes: [1] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 165; [2] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 165; [3] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 164; [4] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 160"
+      },
+      {
+        "tipo": "Dúvida",
+        "entrada": "Posso passar pó de café na picada?",
+        "fonte": "llama",
+        "motivo_fallback": null,
+        "segundos": 4.1,
+        "resposta": "Não amarrar (torniquete) o membro acometido e, muito menos, corte, queime, esprema ou aplique qualquer tipo de substância (pó de café, álcool, terra, folhas, fezes, entre outros) no local da picada, mordedura ou contato. [1]\n\nFontes: [1] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 165; [2] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 160; [3] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 23; [4] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 56"
+      },
+      {
+        "tipo": "Dúvida",
+        "entrada": "Como evitar escorpião dentro de casa?",
+        "fonte": "llama",
+        "motivo_fallback": null,
+        "segundos": 4.4,
+        "resposta": "Sacudir e examinar roupas e sapatos antes de usá-los, pois escorpiões podem se esconder neles e picam ao serem comprimidos contra o corpo. Utilizar soleiras nas portas e janelas, telas em ralos do chão, pias e tanques. [2]\n\nFontes: [1] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 161; [2] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 162; [3] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 88; [4] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 161"
+      },
+      {
+        "tipo": "Dúvida",
+        "entrada": "Como reconhecer uma cobra-coral verdadeira?",
+        "fonte": "llama",
+        "motivo_fallback": null,
+        "segundos": 3.4,
+        "resposta": "A cobra-coral verdadeira tem a cabeça completamente vermelha, com todas as escamas com uma borda preta. [2]\n\nFontes: [1] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 72; [2] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 71; [3] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 69; [4] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 74"
+      },
+      {
+        "tipo": "Dúvida",
+        "entrada": "Como tirar o ferrão de uma abelha?",
+        "fonte": "llama",
+        "motivo_fallback": null,
+        "segundos": 4.1,
+        "resposta": "A remoção do ferrão de abelhas pode ser feita apenas por raspagem com lâminas, e não com pinças. A remoção com pinças pode resultar na inoculação das toxinas ainda existentes no ferrão. [4]\n\nFontes: [1] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 123; [2] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 123; [3] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 121; [4] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 165"
+      },
+      {
+        "tipo": "Dúvida",
+        "entrada": "O escorpião brilha com luz ultravioleta?",
+        "fonte": "llama",
+        "motivo_fallback": null,
+        "segundos": 3.9,
+        "resposta": "Sim, o escorpião brilha com luz ultravioleta, devido à presença de duas moléculas na carapaça, a beta-carbolina e a 4-metil-7-hidroxicoumarina [1].\n\nFontes: [1] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 99; [2] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 13; [3] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 153; [4] Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024), p. 138"
+      },
+      {
+        "tipo": "Dúvida",
+        "entrada": "Qual o horário do jogo do Corinthians?",
+        "fonte": "fora_do_tema",
+        "motivo_fallback": null,
+        "segundos": 0.0,
+        "resposta": "Eu só respondo sobre acidentes com animais peçonhentos (serpentes, escorpiões, aranhas, lagartas, abelhas…). Em caso de acidente, ligue 192."
+      }
+    ]
+  }
+}

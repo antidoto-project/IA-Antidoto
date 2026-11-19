@@ -1,0 +1,39 @@
+{
+  "gerado_em": "2026-11-18T20:27:38-03:00",
+  "parametros": {
+    "tamanho_min": 500,
+    "tamanho_max": 800,
+    "sobreposicao": 150
+  },
+  "total_trechos": 374,
+  "documentos": [
+    {
+      "id": "guia-peconhentos-2024",
+      "titulo": "Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024)",
+      "paginas_no_pdf": 166,
+      "paginas_indexadas": 132,
+      "paginas_sem_texto": [],
+      "caracteres": 226070,
+      "trechos": 374,
+      "tamanho_trecho": {
+        "min": 129,
+        "max": 922,
+        "media": 653
+      },
+      "exemplos": [
+        {
+          "pagina": 8,
+          "texto": "Os acidentes por animais peçonhentos representam um importante desafio para a saúde pública no Brasil. Devido à rica biodiversidade e ao clima tropical favorável, o País abriga uma grande variedade de…"
+        },
+        {
+          "pagina": 49,
+          "texto": "2.6 Espécies mais relevantes em saúde no Brasil Espécies de maior importância em saúde foram eleitas para a melhor orientação quando da presença de espécimes trazidos a um posto de atendimento médico …"
+        },
+        {
+          "pagina": 94,
+          "texto": "Já as quelíceras das demais aranhas não são projetadas para a frente, e podem ser vistas de cima com dificuldade. O movimento dos ferrões também é diferente, eles se movem paralelamente ao eixo do cor…"
+        }
+      ]
+    }
+  ]
+}

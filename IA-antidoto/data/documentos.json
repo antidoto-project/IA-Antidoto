@@ -1,0 +1,17 @@
+{
+  "descricao": "Documentos oficiais indexados para o RAG. 'paginas' são as páginas do PDF (não as impressas) que entram no índice; capa, sumário, aberturas de capítulo (só título e autores), tabelas de espécies e referências bibliográficas ficam de fora. Tudo depois de uma linha 'REFERÊNCIAS' na página também é descartado.",
+  "documentos": [
+    {
+      "id": "guia-peconhentos-2024",
+      "arquivo": "guia_animais_peconhentos_brasil.pdf",
+      "titulo": "Guia de Animais Peçonhentos do Brasil (Ministério da Saúde, 2024)",
+      "link": "http://bvsms.saude.gov.br/bvs/publicacoes/guia_animais_peconhentos_brasil.pdf",
+      "licenca": "Creative Commons Atribuição – Não Comercial – Compartilha Igual",
+      "paginas": [[8, 10], [12, 18], [22, 45], [48, 76], [82, 94], [98, 113], [118, 135], [138, 143], [146, 155], [160, 165]],
+      "cabecalhos": [
+        "Guia de animais peçonhentos do Brasil",
+        "Secretaria de Vigilância em Saúde e Ambiente | Ministério da Saúde"
+      ]
+    }
+  ]
+}

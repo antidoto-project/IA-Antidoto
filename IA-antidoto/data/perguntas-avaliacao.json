@@ -1,0 +1,235 @@
+{
+  "descricao": "Perguntas de avaliação do RAG. 'paginas_esperadas' são as páginas do PDF do guia que respondem a pergunta (conferidas pelo grupo no texto do guia). Acerto = pelo menos um dos k trechos recuperados começa numa dessas páginas. As perguntas 'fora_do_tema' devem voltar sem trecho relevante.",
+  "perguntas": [
+    {
+      "id": "P01",
+      "pergunta": "Posso fazer torniquete depois de uma picada de cobra?",
+      "paginas_esperadas": [
+        160,
+        164,
+        165
+      ],
+      "tema": "primeiros socorros"
+    },
+    {
+      "id": "P02",
+      "pergunta": "O que fazer logo depois de ser picado por um animal peçonhento?",
+      "paginas_esperadas": [
+        160,
+        164
+      ],
+      "tema": "primeiros socorros"
+    },
+    {
+      "id": "P03",
+      "pergunta": "Devo lavar o local da picada com água e sabão?",
+      "paginas_esperadas": [
+        164
+      ],
+      "tema": "primeiros socorros"
+    },
+    {
+      "id": "P04",
+      "pergunta": "Posso passar borra de café ou pó de café na picada?",
+      "paginas_esperadas": [
+        160,
+        165
+      ],
+      "tema": "primeiros socorros"
+    },
+    {
+      "id": "P05",
+      "pergunta": "Devo tirar foto do bicho que me picou?",
+      "paginas_esperadas": [
+        164
+      ],
+      "tema": "primeiros socorros"
+    },
+    {
+      "id": "P06",
+      "pergunta": "Como tirar o ferrão de uma abelha?",
+      "paginas_esperadas": [
+        165
+      ],
+      "tema": "primeiros socorros"
+    },
+    {
+      "id": "P07",
+      "pergunta": "O que fazer em acidente com água-viva?",
+      "paginas_esperadas": [
+        165
+      ],
+      "tema": "primeiros socorros"
+    },
+    {
+      "id": "P08",
+      "pergunta": "Como evitar escorpião dentro de casa?",
+      "paginas_esperadas": [
+        160,
+        161,
+        162
+      ],
+      "tema": "prevenção"
+    },
+    {
+      "id": "P09",
+      "pergunta": "Como prevenir picada de cobra quando trabalho na roça?",
+      "paginas_esperadas": [
+        160,
+        161,
+        162,
+        163
+      ],
+      "tema": "prevenção"
+    },
+    {
+      "id": "P10",
+      "pergunta": "Usar botas e luvas ajuda a evitar acidentes?",
+      "paginas_esperadas": [
+        160,
+        163
+      ],
+      "tema": "prevenção"
+    },
+    {
+      "id": "P11",
+      "pergunta": "Como reconhecer uma cobra-coral verdadeira?",
+      "paginas_esperadas": [
+        26,
+        38,
+        39,
+        40,
+        44,
+        65,
+        67,
+        68,
+        69,
+        70
+      ],
+      "tema": "identificação"
+    },
+    {
+      "id": "P12",
+      "pergunta": "O que é a fosseta loreal das serpentes?",
+      "paginas_esperadas": [
+        26,
+        30,
+        32
+      ],
+      "tema": "identificação"
+    },
+    {
+      "id": "P13",
+      "pergunta": "Como reconhecer uma cascavel pelo chocalho?",
+      "paginas_esperadas": [
+        25,
+        32,
+        33,
+        62
+      ],
+      "tema": "identificação"
+    },
+    {
+      "id": "P14",
+      "pergunta": "Qual aranha tem uma mancha em forma de violino?",
+      "paginas_esperadas": [
+        89
+      ],
+      "tema": "identificação"
+    },
+    {
+      "id": "P15",
+      "pergunta": "Onde vive o escorpião-amarelo?",
+      "paginas_esperadas": [
+        13,
+        16,
+        98,
+        101,
+        107
+      ],
+      "tema": "identificação"
+    },
+    {
+      "id": "P16",
+      "pergunta": "O escorpião brilha com luz ultravioleta?",
+      "paginas_esperadas": [
+        99
+      ],
+      "tema": "identificação"
+    },
+    {
+      "id": "P17",
+      "pergunta": "O que é a lagarta Lonomia e por que ela é perigosa?",
+      "paginas_esperadas": [
+        13,
+        14,
+        17,
+        125,
+        126,
+        128,
+        129,
+        130
+      ],
+      "tema": "identificação"
+    },
+    {
+      "id": "P18",
+      "pergunta": "A aranha armadeira é perigosa?",
+      "paginas_esperadas": [
+        13,
+        16,
+        83,
+        84,
+        85
+      ],
+      "tema": "identificação"
+    },
+    {
+      "id": "P19",
+      "pergunta": "Quais animais peçonhentos causam mais acidentes no Brasil?",
+      "paginas_esperadas": [
+        8,
+        12,
+        14,
+        16,
+        17,
+        18
+      ],
+      "tema": "epidemiologia"
+    },
+    {
+      "id": "P20",
+      "pergunta": "Onde é aplicado o soro antiveneno?",
+      "paginas_esperadas": [
+        8,
+        9,
+        12,
+        22,
+        160
+      ],
+      "tema": "tratamento"
+    }
+  ],
+  "fora_do_tema": [
+    {
+      "id": "F01",
+      "pergunta": "Qual o horário do jogo do Corinthians?"
+    },
+    {
+      "id": "F02",
+      "pergunta": "Me passa uma receita de bolo de cenoura"
+    },
+    {
+      "id": "F03",
+      "pergunta": "Quanto está o preço da gasolina hoje?"
+    },
+    {
+      "id": "F04",
+      "pergunta": "Qual é a capital da França?"
+    },
+    {
+      "id": "F05",
+      "pergunta": "Como trocar o pneu do carro?"
+    }
+  ]
+}
